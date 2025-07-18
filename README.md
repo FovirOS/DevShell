@@ -30,3 +30,10 @@ The environments currently supported are:
 | --- | --- |
 | Node.js | `nodejs` |
 
+## After Initialization
+
+After initializing the template, it can be modified to meet the environment requirements. When everything is done, run the command to enter the `DevShell`.
+
+```bash
+nix develop
+```
