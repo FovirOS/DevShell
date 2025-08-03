@@ -26,9 +26,10 @@ nix flake init -t github:FovirOS/DevShell#nodejs
 
 The environments currently supported are:
 
-| Name    | `<environment>` Value |
-| ------- | --------------------- |
-| Node.js | `nodejs`              |
+| Name      | `<environment>` Value |
+| --------- | --------------------- |
+| Node.js   | `nodejs`              |
+| Front End | `frontend`            |
 
 ## After Initialization
 
