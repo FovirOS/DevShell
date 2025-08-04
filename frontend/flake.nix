@@ -17,9 +17,5 @@
         trap 'echo "Leaving the development environment!"' EXIT
       '';
     };
-
-    templates.default = {
-      path = ./template;
-    };
   };
 }
