@@ -18,18 +18,26 @@
       shellHook = ''
         export NODE_ENV=development
 
-        if [ ! -d "node_modules/react"]; then
-          echo "Installing React..."
-          pnpm add react react-dom
-        fi
+        ensure_pnpm_package() {
+           local pkg=$1
 
-        if ! command -v vite >/dev/null 2>&1; then
-          echo "Installing Vite..."
-          pnpm add vite
-        fi
+          if pnpm list --depth=0 | grep "$pkg" &>/dev/null; then
+            echo "$pkg installed"
+          else
+            echo "Installing $pkg..."
+            pnpm add "$pkg"
+          fi
+        }
+
+        ensure_pnpm_package react
+        ensure_pnpm_package react-dom
+        ensure_pnpm_package vite
 
         echo "Entering the development environment!"
         echo "Node: $(node -v), pnpm: $(pnpm -v)"
+
+        alias dev="pnpm vite --host 127.0.0.1 --open"
+        alias built="pnpm vite build"
 
         trap 'echo "Leaving the development environment!"' EXIT
       '';
