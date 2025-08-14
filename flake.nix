@@ -15,6 +15,10 @@
         path = ./frontend;
         description = "Front End Template";
       };
+      react-vite = {
+        path = ./react-vite;
+        description = "React + Vite";
+      };
     };
   };
 }
