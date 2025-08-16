@@ -31,6 +31,7 @@ The environments currently supported are:
 | Node.js      | `nodejs`              |
 | Front End    | `frontend`            |
 | React + Vite | `react-vite`          |
+| TypeScript   | `typescript`          |
 
 ## After Initialization
 
