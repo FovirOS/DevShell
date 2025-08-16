@@ -19,6 +19,10 @@
         path = ./react-vite;
         description = "React + Vite";
       };
+      typescript = {
+        path = ./typescript;
+        description = "TypeScript";
+      };
     };
   };
 }
