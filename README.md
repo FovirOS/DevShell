@@ -28,10 +28,11 @@ The environments currently supported are:
 
 | Name         | `<environment>` Value |
 | ------------ | --------------------- |
-| Node.js      | `nodejs`              |
+| Node.JS      | `nodejs`              |
 | Front End    | `frontend`            |
 | React + Vite | `react-vite`          |
 | TypeScript   | `typescript`          |
+| Next.JS      | `nextjs`              |
 
 ## After Initialization
 
