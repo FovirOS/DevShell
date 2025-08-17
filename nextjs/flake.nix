@@ -29,9 +29,9 @@
           fi
         }
 
-        ensure_pnpm_package react
-        ensure_pnpm_package react-dom
-        ensure_pnpm_package next
+        ensure_pnpm_package react@latest
+        ensure_pnpm_package react-dom@latest
+        ensure_pnpm_package next@latest
 
         echo "Entering the development environment!"
         echo "Node: $(node -v), pnpm: $(pnpm -v)"
