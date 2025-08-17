@@ -23,6 +23,10 @@
         path = ./typescript;
         description = "TypeScript";
       };
+      nextjs = {
+        path = ./nextjs;
+        description = "Next.JS";
+      };
     };
   };
 }
