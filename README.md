@@ -33,6 +33,7 @@ The environments currently supported are:
 | React + Vite | `react-vite`          |
 | TypeScript   | `typescript`          |
 | Next.JS      | `nextjs`              |
+| SVG          | `svg`                 |
 
 ## After Initialization
 

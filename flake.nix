@@ -27,6 +27,10 @@
         path = ./nextjs;
         description = "Next.JS";
       };
+      svg = {
+        path = ./svg;
+        description = "SVG";
+      };
     };
   };
 }
