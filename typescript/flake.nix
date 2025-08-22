@@ -18,7 +18,7 @@
       shellHook = ''
         export NODE_ENV=development
 
-        ensure_pnpm_package() {
+        ensure_npm_package() {
            local pkg=$1
 
           if npm list --depth=0 | grep "$pkg" &>/dev/null; then
@@ -29,7 +29,7 @@
           fi
         }
 
-        ensure_pnpm_package tsx
+        ensure_npm_package tsx
 
         echo "Entering the development environment!"
         echo "Node: $(node -v), npx: $(npx -v)"
