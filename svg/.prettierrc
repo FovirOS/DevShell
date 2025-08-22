@@ -1,4 +1,4 @@
 {
   "printWidth": 72,
-  "plugins": ["prettier-plugin-xml"]
+  "plugins": ["@prettier/plugin-xml"]
 }
