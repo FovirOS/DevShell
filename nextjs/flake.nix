@@ -19,9 +19,10 @@
         export NODE_ENV=development
 
         ensure_pnpm_package() {
-           local pkg=$1
+          local pkg=$1
+          local pkg_name="''${pkg%%@*}"
 
-          if pnpm list --depth=0 | grep "$pkg" &>/dev/null; then
+          if pnpm list --depth=0 | grep "$pkg_name" &>/dev/null; then
             echo "$pkg installed"
           else
             echo "Installing $pkg..."
