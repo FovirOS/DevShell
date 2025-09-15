@@ -15,6 +15,7 @@
       buildInputs = with pkgs; [
         zola
         nodejs
+        just
       ];
 
       # Shell hooks.
