@@ -31,6 +31,10 @@
         path = ./svg;
         description = "SVG";
       };
+      zola = {
+        path = ./zola;
+        description = "Zola";
+      };
     };
   };
 }
