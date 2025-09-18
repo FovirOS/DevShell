@@ -39,6 +39,10 @@
         path = ./java;
         description = "Java";
       };
+      hugo = {
+        path = ./hugo;
+        description = "Hugo";
+      };
     };
   };
 }

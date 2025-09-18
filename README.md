@@ -36,6 +36,7 @@ The environments currently supported are:
 | SVG          | `svg`                 |
 | Zola         | `zola`                |
 | Java         | `java`                |
+| Hugo         | `hugo`                |
 
 ## After Initialization
 
