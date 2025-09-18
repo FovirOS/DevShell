@@ -35,6 +35,7 @@ The environments currently supported are:
 | Next.JS      | `nextjs`              |
 | SVG          | `svg`                 |
 | Zola         | `zola`                |
+| Java         | `java`                |
 
 ## After Initialization
 

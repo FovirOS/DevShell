@@ -35,6 +35,10 @@
         path = ./zola;
         description = "Zola";
       };
+      java = {
+        path = ./java;
+        description = "Java";
+      };
     };
   };
 }
