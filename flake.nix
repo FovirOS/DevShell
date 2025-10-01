@@ -43,6 +43,10 @@
         path = ./hugo;
         description = "Hugo";
       };
+      mysql = {
+        path = ./mysql;
+        description = "MySQL";
+      };
     };
   };
 }

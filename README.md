@@ -37,6 +37,7 @@ The environments currently supported are:
 | Zola         | `zola`                |
 | Java         | `java`                |
 | Hugo         | `hugo`                |
+| MySQL        | `mysql`               |
 
 ## After Initialization
 
