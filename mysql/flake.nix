@@ -22,12 +22,12 @@
         echo "Entering the development environment!"
         mysql --version
 
-        mysqld --initialize-insecure --datadir ./data
-        mysqld --datadir ./data --socket ./data/mysql.sock &
+        echo 'Just Operations:'
+        echo '  "just init" -- initialize MySQL.'
+        echo '  "just server" -- enter MySQL server.'
+        echo '  "just start" -- enter MySQL shell.'
 
-        echo "Use `just start` to enter MySQL. "
-
-        trap 'echo "Leaving the development environment!"' EXIT
+        trap 'mysqladmin -u root --socket ./data/mysql.sock shutdown; echo "Leaving the development environment!"' EXIT
       '';
     };
   };
