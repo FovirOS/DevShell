@@ -1,0 +1,2 @@
+start:
+  mysql -u root --socket ./data/mysql.sock
